@@ -1,4 +1,15 @@
 # geolocator
 
-## geolocator in c# using ip address
+geolocator in c# using net.http and ipinfo.io
+
+## features:
+
+    - country
+    - city
+    - coordinates
+    - postal code
+    - region
+    - postal
+    - asn
+    - google maps
 
