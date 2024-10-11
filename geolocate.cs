@@ -40,7 +40,7 @@ namespace geolocate
             Console.Title = "Geolocator";
             Console.Write("Enter IP: ");
             string ip = Console.ReadLine();
-            string url = $"https://ipinfo.io/{ip}json";
+            string url = $"https://ipinfo.io/{ip}/json";
 
             using (HttpClient client = new HttpClient())
             {
