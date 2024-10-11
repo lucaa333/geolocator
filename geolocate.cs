@@ -61,6 +61,8 @@ namespace geolocate
                     Console.WriteLine($"Postal Code: {ipInfo.postal}");
                     Console.WriteLine($"Region: {ipInfo.region}");
                     Console.WriteLine($"ASN: {ipInfo.org}");
+                    string[] Coords = ipInfo.loc.Split(',');
+                    Console.WriteLine($"Google Maps: https://www.google.com/maps/?q={Coords[0]},{Coords[1]}");
 
                 }
                 catch (HttpRequestException ex)
